@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", serif;
+}
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.brand-logo {
+  width: 80%;
+  margin-top: 5px;
+}
+
+.grow-list {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list-item {
+  margin-right: 2rem;
+}
+
+.list-item:nth-child(1) {
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  align-items: flex-end;
+}
+.nav-button {
+  display: flex;
+  margin-right: 2rem;
+  padding: 8px 8px;
+}
+
+/* Banner-section */
+
+.banner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+  padding: 0 2rem;
+}
+
+.banner-container div img {
+  width: 80%;
+}
+
+.heading-text {
+  font-size: 3.3rem;
+  font-weight: 600;
+  /* color: rgb(63, 58, 92); */
+  line-height: 1;
+}
+
+span {
+  color: rgb(137, 97, 218);
+}
+
+.description {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(134, 129, 169);
+}
+
+.nav-button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border: 2px solid #1b98f5;
+  border-radius: 7px;
+  background-color: transparent;
+  color: #1b98f5;
+}
+
+.btn {
+  background-color: #1b98f5;
+  color: #ffffff;
+}
+
+/* Banner-section-2 */
+
+.banner-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+  padding: 0 2rem;
+}
+
+.second-img {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+/* Banner-container-3 */
+
+.banner-container-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+  padding: 0 2rem;
+  margin-left: 2rem;
+}
+
+.last-img {
+  width: 100%;
+}
+
+/* Service-section */
+
+.sevices-section {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.service-heading,
+.service-description {
+  margin-left: 8rem;
+}
+
+.service-description {
+  margin-right: 3rem;
+}
+
+.service-cards {
+  display: flex;
+  margin: 4rem 8rem;
+}
+
+.card {
+  margin-right: 3rem;
+}
+
+/* Flexible-section */
+
+.flex-container {
+  height: 100vh;
+  background-color: #1b98f5;
+}
+
+.flex-heading {
+  display: flex;
+  letter-spacing: 2;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-top: 3rem;
+  color: #ffffff;
+}
+
+.flex-cards {
+  display: flex;
+  margin-left: 9rem;
+}
+.flex-card {
+  background-color: white;
+  border-color: #e5eaf4;
+  border: 2px solid #fff;
+  border-width: 2px;
+  margin-left: 3rem;
+  width: 25%;
+}
+
+.one {
+  padding-left: 1.6rem;
+  padding-bottom: 1.3rem;
+}
+
+.flex-list {
+  list-style-type: none;
+  line-height: 2.6;
+}
+
+.payment {
+  padding-left: 1.8rem;
+}
+
+.dollor {
+  font-size: 1.6rem;
+}
+
+.choose-btn1 {
+  padding: 10px 16px;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #808080;
+  color: #1b98f5;
+  background-color: transparent;
+}
+
+.choose-btn2 {
+  padding: 10px 16px;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: none;
+  color: #fff;
+  background-color: #1b98f5;
+}
+
+.choose-btn3 {
+  padding: 10px 16px;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #808080;
+  color: #1b98f5;
+  background-color: transparent;
+}
+
+/*----- Coustmer-section----- */
+
+.customer-head {
+  margin-left: 20rem;
+  margin-top: 6rem;
+  font-size: 2.4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.customer-para {
+  margin-left: 14rem;
+}
+
+.customer-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 9rem 4rem;
+  gap: 2rem;
+}
+
+.customer-card {
+  border: solid;
+  background-color: white;
+  border-color: #e5eaf4;
+  border-radius: 5px;
+  padding: 1rem;
+  border: 1px solid #e5eaf4;
+}
+
+.card-bottom {
+  margin-top: -3rem;
+  margin-left: 4rem;
+  line-height: 0.7;
+}
+
+/* ---Hosting-part --*/
+.hosting {
+  height: 50vh;
+  background-color: rgb(61, 61, 220);
+}
+
+.host-head {
+  margin-left: 3rem;
+  padding-top: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.register-btn {
+  position: relative;
+  float: right;
+  margin-right: 5rem;
+  bottom: 6rem;
+  font-size: 1.2rem;
+  padding: 14px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #e5eaf4;
+  border-radius: 5px;
+}
+
+/* --Footer-Section-- */
+.footer-section {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.left {
+  margin-left: 2rem;
+}
+
+.footer-logo {
+  width: 30%;
+}
+
+.right {
+  display: flex;
+  margin-left: 5rem;
+}
+
+.links,
+.overview {
+  margin-left: 2.5rem;
+}
+
+p a {
+  text-decoration: none;
+  color: #000;
+}
+
+.social-media {
+  margin-left: 3rem;
+}
+
+.social-media img {
+  width: 22%;
+}
